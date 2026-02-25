@@ -123,7 +123,7 @@ make cs-fix                     # автоисправить стиль кода
 ## Файлы окружения
 
 ```
-tg_bot/
+Symfony Blog/
 ├── .env                        # Docker-переменные (MariaDB, DB_HOST и др.) — в git
 ├── .env.example                # шаблон для .env — в git
 │
@@ -173,7 +173,7 @@ docker exec -w /var/www/html/app tg_bot-php-1 \
 ## Структура проекта
 
 ```
-tg_bot/
+Symfony Blog/
 ├── app/                        # Symfony-приложение
 │   ├── src/
 │   │   ├── Controller/         # BlogController, Admin/PostController, SecurityController
